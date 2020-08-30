@@ -1,3 +1,4 @@
+// todo: 1. Finish the english file.  2. Copy the english file here.  3. Translate the english strings to spanish.
 module.exports = {
 	'main-title-before-man': 'Battagliando COVID-19, un',
 	'main-title-after-man': 'per volta',

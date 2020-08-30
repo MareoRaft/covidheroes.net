@@ -78,13 +78,13 @@
                           text-transform: none !important;
                           font-size: 120%;
                         "
-                        >Login</a
+                        ><%=locals.t('login');%></a
                       >
                     </li>
                   </ul>
                   <ul class="io nv">
                     <li>
-                      <a class="tbuttonn fbuttonl sbuttono hover" href="/signup">register</a>
+                      <a class="tbuttonn fbuttonl sbuttono hover" href="/signup"><%=locals.t('register');%></a>
                     </li>
                   </ul>
                 </div>
@@ -122,7 +122,7 @@
                       data-reveal-delay="600"
                       href="/posts"
                       style="margin-top: 15px;"
-                      >Try it out</a
+                      ><%=locals.t('try-it-out');%></a
                     >
                   </div>
                 </div>
@@ -145,10 +145,9 @@
                         </div>
                       </div>
                       <div class="features-tiles-item-content">
-                        <h4 class="so sy">Communicate with volunteers</h4>
+                        <h4 class="so sy"><%=locals.t('communicate-with-volunteers');%></h4>
                         <p class="ss l">
-                          Need resources or medical supplies? We have a great community of helpful
-                          volunteers that are able to help you.
+                          <%=locals.t('need-resources-or-medical-supplies-we-have-a-great-community-of-helpful-volunteers-that-are-able-to-help-you');%>
                         </p>
                       </div>
                     </div>
@@ -165,10 +164,9 @@
                         </div>
                       </div>
                       <div class="features-tiles-item-content">
-                        <h4 class="so sy">Supportive community</h4>
+                        <h4 class="so sy"><%=locals.t('supportive-community');%></h4>
                         <p class="ss l">
-                          So who can help me? Our community consists of extremely friendly and
-                          helpful volunteers and heroes, just create a request and be helped!
+                          <%=locals.t('so-who-can-help-me-our-community-consists-of-extremely-friendly-and-helpful-volunteers-and-heroes-just-create-a-request-and-be-helped');%>
                         </p>
                       </div>
                     </div>
@@ -185,10 +183,9 @@
                         </div>
                       </div>
                       <div class="features-tiles-item-content">
-                        <h4 class="so sy">Trusted by organizations</h4>
+                        <h4 class="so sy"><%=locals.t('trusted-by-organizations');%></h4>
                         <p class="ss l">
-                          We're currently supported by Infinite Resource (Camas FRC & Camas Scioly)
-                          and the Vancouver Chinese Association.
+                          <%=locals.t('were-currently-supported-by-infinite-resource-camas-frc-camas-scioly-and-the-vancouver-chinese-association');%>
                         </p>
                       </div>
                     </div>
@@ -205,11 +202,10 @@
                         </div>
                       </div>
                       <div class="features-tiles-item-content">
-                        <h4 class="so sy">Made by students</h4>
+                        <h4 class="so sy"><%=locals.t('made-by-students');%></h4>
                         <p class="ss l">
-                          Who's behind COVID Heroes? COVID Heroes was initially started by three
-                          students from Camas Science Olympiad, and now has grown to a
-                          <a href="/team">team of seven</a>.
+                          <%=locals.t('whos-behind-covid-heroes-covid-heroes-was-initially-started-by-three-students-from-camas-science-olympiad-and-now-has-grown-to-a');%>
+                          <a href="/team"><%=locals.t('team-of-seven');%></a>.
                         </p>
                       </div>
                     </div>
@@ -226,10 +222,9 @@
                         </div>
                       </div>
                       <div class="features-tiles-item-content">
-                        <h4 class="so sy">Email notifications</h4>
+                        <h4 class="so sy"><%=locals.t('email-notifications');%></h4>
                         <p class="ss l">
-                          Want to be notified of new posts? COVID Heroes offers comprehensive
-                          togglable emails on weekly newsletters and posts.
+                          <%=locals.t('want-to-be-notified-of-new-posts-covid-heroes-offers-comprehensive-togglable-emails-on-weekly-newsletters-and-posts');%>
                         </p>
                       </div>
                     </div>
@@ -246,10 +241,9 @@
                         </div>
                       </div>
                       <div class="features-tiles-item-content">
-                        <h4 class="so sy">Constant updates</h4>
+                        <h4 class="so sy"><%=locals.t('constant-updates');%></h4>
                         <p class="ss l">
-                          Our developers and staff are constantly working on COVID Heroes and
-                          listening to you. You can check out our development repository on
+                          <%=locals.t('our-developers-and-staff-are-constantly-working-on-covid-heroes-and-listening-to-you-you-can-check-out-our-development-repository-on');%>
                           <a href="https://github.com/camasscioly/covidheroes.net" target="_blank"
                             >Github</a
                           >.
@@ -266,20 +260,18 @@
               <div class="features-split-inner rn se">
                 <div class="rr sn">
                   <div class="scontainero">
-                    <h2 class="so ot">About COVID Heroes</h2>
+                    <h2 class="so ot"><%=locals.t('about-covid-heroes');%></h2>
                     <p class="ss">
-                      We're an aspiring group of student volunteers stepping up to unite communities
-                      to help each other with software.
+                      <%=locals.t('were-an-aspiring-group-of-student-volunteers-stepping-up-to-unite-communities-to-help-each-other-with-software');%>
                     </p>
                   </div>
                 </div>
                 <div class="tj nt">
                   <div class="split-item">
                     <div class="ne as reveal-from-left" data-reveal-container=".split-item">
-                      <h3 class="so s_">Our Mission</h3>
+                      <h3 class="so s_"><%=locals.t('our-mission');%></h3>
                       <p class="ss">
-                        We aim to help people in need during the COVID-19 epidemic locate, receive,
-                        and exchange needed necessities from within their community.
+                        <%=locals.t('we-aim-to-help-people-in-need-during-the-covid-epidemic-locate-receive-and-exchange-needed-necessities-from-within-their-community');%>
                       </p>
                     </div>
                     <div
@@ -291,10 +283,9 @@
                   </div>
                   <div class="split-item">
                     <div class="ne as reveal-from-right" data-reveal-container=".split-item">
-                      <h3 class="so s_">How it works</h3>
+                      <h3 class="so s_"><%=locals.t('how-it-works');%></h3>
                       <p class="ss">
-                        We provide a platform for individuals and communities to request resources,
-                        or to fulfill requests of those in need during the COVID-19 epidemic.
+                        <%=locals.t('we-provide-a-platform-for-individuals-and-communities-to-request-resources-or-to-fulfill-requests-of-those-in-need-during-the-covid-epidemic');%>
                       </p>
                     </div>
                     <div
@@ -306,18 +297,16 @@
                   </div>
                   <div class="split-item">
                     <div class="ne as reveal-from-left" data-reveal-container=".split-item">
-                      <h3 class="so s_">Serving Clark County, WA</h3>
+                      <h3 class="so s_"><%=locals.t('serving-clark-county-wa');%></h3>
                       <p class="ss">
-                        We're currently supported by
+                        <%=locals.t('were-currently-supported-by');%>
                         <a href="https://team2471.org/infinite-resource/" target="_blank"
                           >Infinite Resource</a
                         >
-                        and the
+                        <%=locals.t('and-the');%>
                         <a href="http://vca-usa.org/" target="_blank"
                           >Vancouver Chinese Association</a
-                        >, some of the initiatives in Clark County. Lots of community members are
-                        using our platform to support each other and medical institutions in Clark
-                        County as well.
+                        >. <%=locals.t('some-of-the-initiatives-in-clark-county-lots-of-community-members-are-using-our-platform-to-support-each-other-and-medical-institutions-in-clark-county-as-well');%>
                       </p>
                     </div>
                     <div
@@ -336,9 +325,9 @@
               <div class="rn om se">
                 <div class="rr sn">
                   <div class="scontainero">
-                    <h2 class="so ot">Our Services</h2>
+                    <h2 class="so ot"><%=locals.t('our-services');%></h2>
                     <p class="ss">
-                      Our platform offers services that you to utilize.
+                      <%=locals.t('our-platform-offers-services-that-you-to-utilize');%>
                     </p>
                   </div>
                 </div>
@@ -349,30 +338,29 @@
                         <div class="rz ud oo">
                           <div class="pricing-item-price sp">
                             <span class="pricing-item-price-amount i" style="font-size: 150%;"
-                              >Posts</span
+                              ><%=locals.t('posts');%></span
                             >
                           </div>
                           <div class="c">
-                            This is a marketplace where you are able to view requests and offers by
-                            heroes.
+                            <%=locals.t('this-is-a-marketplace-where-you-are-able-to-view-requests-and-offers-by-heroes');%>
                           </div>
                         </div>
                         <div class="mb-40">
                           <div class="f c id oo" style="color: #000;">
-                            Features
+                            <%=locals.t('features');%>
                           </div>
                           <ul class="rh io c oc">
-                            <li class="it">Requests/Offer Support</li>
-                            <li class="it">Simple Interface</li>
-                            <li class="it">Gmap Support</li>
-                            <li class="it">Disqus Support</li>
-                            <li class="it">Organized Metadata</li>
-                            <li class="it">24/7 monitoring</li>
+                            <li class="it"><%=locals.t('requestsoffer-support');%></li>
+                            <li class="it"><%=locals.t('simple-interface');%></li>
+                            <li class="it"><%=locals.t('gmap-support');%></li>
+                            <li class="it"><%=locals.t('disqus-support');%></li>
+                            <li class="it"><%=locals.t('organized-metadata');%></li>
+                            <li class="it"><%=locals.t('monitoring');%></li>
                           </ul>
                         </div>
                       </div>
                       <div class="pricing-item-cta sy">
-                        <a class="tbuttonn fbuttonl pbuttond hover" href="/posts">Visit Page</a>
+                        <a class="tbuttonn fbuttonl pbuttond hover" href="/posts"><%=locals.t('visit-page');%></a>
                       </div>
                     </div>
                   </div>
@@ -381,29 +369,28 @@
                       <div class="rc">
                         <div class="rz ud oo">
                           <div class="sp">
-                            <span class="i" style="font-size: 150%;">Heroes</span>
+                            <span class="i" style="font-size: 150%;"><%=locals.t('heroes');%></span>
                           </div>
                           <div class="c">
-                            This is a listing where you are able to find heroes who contribute
-                            resources in our community.
+                            <%=locals.t('this-is-a-listing-where-you-are-able-to-find-heroes-who-contribute-resources-in-our-community');%>
                           </div>
                         </div>
                         <div class="mb-40">
                           <div class="f c id oo" style="color: #000;">
-                            Features
+                            <%=locals.t('features');%>
                           </div>
                           <ul class="rh io c oc">
-                            <li class="it">Organized listing</li>
-                            <li class="it">Unique indentification</li>
-                            <li class="it">Reputation system</li>
-                            <li class="it">Change details</li>
-                            <li class="it">Custom avatar</li>
-                            <li class="it">24/7 monitoring</li>
+                            <li class="it"><%=locals.t('organized-listing');%></li>
+                            <li class="it"><%=locals.t('unique-indentification');%></li>
+                            <li class="it"><%=locals.t('reputation-system');%></li>
+                            <li class="it"><%=locals.t('change-details');%></li>
+                            <li class="it"><%=locals.t('custom-avatar');%></li>
+                            <li class="it"><%=locals.t('monitoring');%></li>
                           </ul>
                         </div>
                       </div>
                       <div class="pricing-item-cta sy">
-                        <a class="tbuttonn fbuttonl pbuttond hover" href="/heroes">Visit Page</a>
+                        <a class="tbuttonn fbuttonl pbuttond hover" href="/heroes"><%=locals.t('visit-page');%></a>
                       </div>
                     </div>
                   </div>
@@ -417,16 +404,16 @@
               <div class="pricing-inner rn om se">
                 <div class="rr sn">
                   <div class="scontainero">
-                    <h2 class="so ot">Join the Fight Today!</h2>
+                    <h2 class="so ot"><%=locals.t('join-the-fight-today');%></h2>
                     <p class="ss">
-                      We are the ones who will stop COVID-19, one step at a time.
+                      <%=locals.t('we-are-the-ones-who-will-stop-covid-one-step-at-a-time');%>
                     </p>
                     <br />
                     <a
                       class="tbuttonn fbuttonl reveal-from-bottom hover"
                       data-reveal-delay="600"
                       href="/login"
-                      >Join now!</a
+                      ><%=locals.t('join-now');%></a
                     >
                   </div>
                 </div>
@@ -483,7 +470,7 @@
                   </ul>
                 </nav>
                 <div class="footer-copyright">
-                  Copyright © 2020 All Rights Reserved by
+                  <%=locals.t('copyright-all-rights-reserved-by');%>
                   <a href="https://camasscioly.covidheroes.net" target="_blank"
                     >Camas Science Olympiad</a
                   >.
